@@ -1,0 +1,37 @@
+설치서버 :
+  TEST_IP: 10.0.10.145
+  TEST_PORT : 3000
+  TEST_ID : root001
+  TEST_PW : root001
+  SSH_PORT: 22
+  SSH_ID: root
+  SSH_PW : root
+  PKG_UPLOAD_PATH: /backup/
+  SERIAL : 1111
+  LICENSE : 2222
+
+패키지서버 :
+  PKG_IP: 10.0.10.100
+  PKG_PORT: 22
+  PKG_ID: root
+  PKG_PW: root
+  PKG_PATH: /home1/
+
+#데몬은 인자값으로 전체를 받기 힘듬.
+데몬리스트 :
+  MongoDB_MASTER :
+    - config1.conf
+    - config2.conf
+    - config3.conf
+    - mongod1.conf
+    - mongod2.conf
+    - mongos1.conf
+    - stat_min_mongod_01.conf
+    - stat_min_mongod_02.conf
+    - stat_min_mongod_03.conf
+    - stat_min_mongod_04.conf
+    - stat_min_mongod_05.conf
+    - stathour_mongod.conf
+    - statday_mongod.conf
+  
+  NODE : v14.19.0
