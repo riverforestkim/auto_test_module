@@ -1,2 +1,9 @@
 # auto_test_module
-auto test with robotframework
+
+Robot Framework 를 기반으로 개발한 테스트 자동화 모듈입니다.
+
+해당 모듈은 테스트를 진행하면서 결과에 대한 보고서 생성하여 활용도가 높다고 생각되어 개발하게 되었습니다.
+
+Shell, Python 등을 이용하여 리눅스 환경 테스트용으로 우선 개발 진행하였습니다.
+
+Windows 환경 테스트 코드는 추가 예정입니다.
